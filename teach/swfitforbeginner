@@ -1,0 +1,116 @@
+
+
+
+
+
+var myVariable = value
+switch myVariable {
+    case condition1:
+            expression1
+    case condition2:
+            expression2
+    default:                      // Optional if switch block is exhaustive
+            expression
+}
+
+
+for item in range
+{
+    // Statements
+}
+
+while (condition)
+{
+    // Statements
+    increment/decrement
+}
+
+repeat
+{
+    // Statements
+}while(condition)
+
+
+// Swift program to declare and call a function
+
+// Declare a function
+func greet()
+{
+    print("Hello GeeksForGeeks")
+}
+
+// Calling the function
+greet()
+
+print("Outside function")
+
+
+{ (parameters) -> return type in
+
+   statements }
+
+
+
+
+func canThrowAnError() throws
+ {
+ // This function may or may not throw an error
+}
+
+do {
+try canThrowAnError()
+// no error was thrown
+}
+
+catch {
+// an error was thrown
+}
+
+// This will print the line which is present in the quotation mark
+print("Welcome to My Video")
+
+// This will print value of variable
+var a = 5
+print(a)
+
+// This will print the value after doing computation
+print(1 + 2)
+
+//It's mandatory to insert whitespace between var & temp
+var a = 1
+var b=2
+
+// Both are valid but first is better in terms of readability
+var c = a + b
+var d =    a+b
+
+// They both are same
+var a = 1;
+var b = 2
+
+//We have to use semicolon if we will use more than one statements in the same line
+var c = 3; print(c)
+
+// Single line comment in Swift
+
+/* multiple line comment syntax
+We can write multiple lines here */
+func drawLine() {
+        let linePath = UIBezierPath()
+
+        // up
+        linePath.move   (to: CGPoint(x: 0,            y: margin))
+        linePath.addLine(to: CGPoint(x: bounds.width, y: margin))
+
+        // graphMidPoint
+        linePath.move   (to: CGPoint(x: 0,            y: CGFloat(graphMidPoint) + margin))
+        linePath.addLine(to: CGPoint(x: bounds.width, y: CGFloat(graphMidPoint) + margin))
+
+        // down
+        linePath.move   (to: CGPoint(x: 0,            y: bounds.height - margin))
+        linePath.addLine(to: CGPoint(x: bounds.width, y: bounds.height - margin))
+
+        UIColor.black.setStroke()
+        linePath.lineWidth = 0.5
+        linePath.stroke()
+    }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Named Types'/>
+        <page name='Structures'/>
+        <page name='Classes'/>
+        <page name='Structures vs Classes'/>
+        <page name='Properties'/>
+        <page name='Access Control'/>
+        <page name='Object Oriented Programming'/>
+        <page name='Protocols'/>
+        <page name='Protocol Oriented Programming'/>
+    </pages>
+</playground>
